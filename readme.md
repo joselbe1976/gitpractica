@@ -1,11 +1,11 @@
-** - ¿Qué comando utilizaste en el paso 11? ¿Por qué? **
+**- ¿Qué comando utilizaste en el paso 11? ¿Por qué?**
 
 git reset --hard HEAD~1
 
 Para apuntar al commit Styledanterior deshaciendo el ultimo commit  y quedando todo con el primer commit en Master inicial. Master y Styled apuntan al mismo commit.
 
 
-** - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? **
+**- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
 
 git reset --hard ff9e5c0
 
@@ -40,7 +40,7 @@ No genero ningun conflicto porque se ha realizado un fast forward, eso se debe a
 
 git log --graph --decorate --pretty=oneline
 
-**- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué? **
+**- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
 
 git merge --no-ff title
 
@@ -50,15 +50,15 @@ Si podría ser porque en Master teniamos el mismo contenido que title, y en titl
 
 git reset HEAD~1
 
-**- ¿Qué comando o comandos utilizaste en el paso 28? **
+**- ¿Qué comando o comandos utilizaste en el paso 28?**
 
 git checkout git-nuestro.md
 
-**- ¿Qué comando o comandos utilizaste en el paso 29? **
+**- ¿Qué comando o comandos utilizaste en el paso 29?**
 
 git branch -D title
 
-**- ¿Qué comando o comandos utilizaste en el paso 30? **
+**- ¿Qué comando o comandos utilizaste en el paso 30?**
 Primero se busca el reflog y posiciono  al ultinmo commit del merge
 
 git reset --hard 850404f
