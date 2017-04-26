@@ -21,14 +21,15 @@ Para hacer esto mediante git reflog, veo el commit que hice en la rama styled y 
 
 
 
-**- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? **
+**- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**
+
 git checkout styled
 git merge htmlify
 
 Genero un conflicto que habia que solucionar eliminando del fichero la patrte de abajo que añlade,nos quedamos parte superior. Al final git commit, sale el fichero y Control+X
 
 
-**- El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? **
+**- El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
 
 git checkout master
 git merge styled
